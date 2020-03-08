@@ -1,0 +1,6 @@
+image:
+  file: gitpod/gitpod.Dockerfile
+
+tasks:
+  - init: printf '%s\n' "Remove me"
+    command: go run github.com/aykevl/go-smartwatch/examples/digitalclock
